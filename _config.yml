@@ -67,10 +67,14 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+  #type: git
+  #repo: git@github.com:ajaxmao/ajaxmao.github.io.git
+  #branch: master
+
 deploy:
-  type: git
-  repo: git@github.com:ajaxmao/ajaxmao.github.io.git
-  branch: master
+  type: heroku 
+  repo: https://git.heroku.com/maoyi.git
 
 search:
   path: search.xml
