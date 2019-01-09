@@ -7,7 +7,6 @@ categories: 工具
 
 # 基于Docker的Windows/Mac开发环境搭建
 
-[toc]
 
 ## 目的
 
@@ -27,8 +26,8 @@ categories: 工具
 
 准备软件:
 
-- Xshell: http://sys.qiyi.domain/download/devel-tools/Xshell4.exe
-- DockerToolsBox: http://sys.qiyi.domain/download/devel-tools/DockerToolbox.exe
+- Xshell: http://sys.test.domain/download/devel-tools/Xshell4.exe
+- DockerToolsBox: http://sys.test.domain/download/devel-tools/DockerToolbox.exe
 
 
 ## 开发环境搭建
@@ -182,11 +181,8 @@ $ docker images | grep "^<none>" | awk '{print $3}'|xargs docker rmi
 
 ### 官方资料
 
-Docker docs: https://docs.docker.com/
-
-Dockerfile Reference: https://docs.docker.com/engine/reference/builder/
-
-Best practises for writing Docker file: https://docs.docker.com/engine/articles/dockerfile_best-practices/
-
-Using Supervisor with Docker: https://docs.docker.com/engine/articles/using_supervisord/
+1. Docker docs: https://docs.docker.com/
+2. Dockerfile Reference: https://docs.docker.com/engine/reference/builder/
+3. Best practises for writing Docker file: https://docs.docker.com/engine/articles/dockerfile_best-practices/
+4. Using Supervisor with Docker: https://docs.docker.com/engine/articles/using_supervisord/
 

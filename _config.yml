@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: MaoYi's Blog 
+title: 公子豆 
 subtitle: 温水煮青蛙 
-description: Mr.Mao 
-author: MaoYi 
+description: Being on sea, sail; being on land, settle  
+author: M.One 
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://ajaxmao.github.io
+url: http://maoyi.herokuapp.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
